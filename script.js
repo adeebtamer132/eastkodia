@@ -113,7 +113,7 @@ function randomizeImgs() {
     }
 }
 
-randomizeImgs();
+// randomizeImgs();
 
 
 
