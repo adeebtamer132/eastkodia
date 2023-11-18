@@ -10,7 +10,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
+  font-family: "Playfair Display", serif;
 }
 
 ul,
@@ -166,6 +167,10 @@ nav {
     background: none;
     transition: all 0.8s ease-in-out;
   }
+
+  .phone {
+    font-size: 9px;
+  }
 }
 
 .mobile-nav-btn {
@@ -192,6 +197,8 @@ nav {
   .bottom-nav {
     display: flex;
   }
+
+
 }
 
 /*E  Mobile nav */
@@ -205,7 +212,9 @@ nav {
 }
 
 .hero-img {
-  background-image: url("../assets/bmw-i7.avif");
+  /* background-image: url("../assets/aboutusBG.jpg"); */
+  background-image: url("../assets/iiarmored.avif");
+  /* background-color: black; */
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -216,7 +225,8 @@ nav {
 }
 
 .section-2-img {
-  background-image: url("../assets/aboutusBG.jpg");
+  /* background-image: url("../assets/g36.jpg"); */
+  background-color: black;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -235,7 +245,7 @@ nav {
   bottom: 0;
 }
 
-.section2{
+.section2 {
   /* position: relative; */
 }
 
@@ -396,13 +406,13 @@ button:hover {
 }
 
 .img-r-one {
-  background-image: url("../assets/f-second.avif");
+  background-image: url("../assets/GMC.jpg");
   width: 100%;
   aspect-ratio: 16 / 9;
 }
 
 .img-r-two {
-  background-image: url("../assets/f-four.avif");
+  background-image: url("../assets/chevrolet.jpg");
   width: 100%;
   aspect-ratio: 16 / 9;
 }
@@ -415,13 +425,14 @@ button:hover {
 }
 
 .img-l-one {
-  background-image: url("../assets/f-one.avif");
+  background-image: url("../assets/mercedes\ s680.jpg");
+  /* background-image: url("../assets/02.avif"); */
   width: 70%;
   aspect-ratio: 9/ 12;
 }
 
 .img-l-two {
-  background-image: url("../assets/f-three.avif");
+  background-image: url("../assets/cadillac_2jpg.jpg");
   width: 80%;
   aspect-ratio: 16 / 9;
 }
@@ -487,7 +498,7 @@ button:hover {
 .grand {
   position: relative;
   height: 100vh;
-  background-image: url("../assets/grand-section.avif");
+  background-image: url("../assets/bmw-i7.avif");
   width: 100%;
   background-position: 45% 50%;
   background-repeat: no-repeat;
@@ -719,10 +730,6 @@ footer {
 }
 
 /* end footer */
-
-
-
-
 
 
 

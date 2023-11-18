@@ -34,48 +34,67 @@
 
 
 .component-1 {
-    /* height: 100vh; */
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: #dad6d6;
 }
 
 .content {
-    flex: 1;
-    /* margin: 20px auto; */
-    max-width: 500px;
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
 }
 
 .content h2 {
-    font-size: 30px;
-    margin-bottom: 8px;
+    margin: 0px 70px;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
-.content p {
+/* .content p {
     font-size: 16px;
     font-family: 'Times New Roman', Times, serif;
     line-height: 20px;
 
-}
+} */
 
-.component-1 .img {
+/* .component-1 .img {
     flex: 1;
     margin: auto;
     text-align: center;
     position: relative;
 
-}
+} */
 
-.component-1 .img img {
+/* .component-1 .img img {
     width: 350px;
     position: absolute;
     top: -40px;
     top: -200px;
+} */
+
+.eastkodia {
+    color: #ffa500ab;
+    font-weight: bold;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,16 +4,23 @@
   background-color: black;
   padding: 0 200px;
 }
+
 .aboutus-background {
   position: relative;
 }
+
 .about-bg {
   width: 100vw;
-  background-image: url("https://inkasarmored.com/wp-content/uploads/Websliders-2021-1.jpg?_t=1630356343");
+  background-image: url("../assets/iiarmored.avif");
+  /* background-image: url("../assets/GMC.jpg"); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   object-fit: cover;
   background-position: 50% 20%;
   height: 500px;
 }
+
 .ourMessage {
   position: absolute;
   top: 70%;
@@ -23,9 +30,11 @@
   font-size: 40px;
   color: white;
 }
+
 .aboutus {
   color: white;
 }
+
 .aboutus h1 {
   padding: 20px 35px;
   font-size: 62px;
@@ -33,6 +42,7 @@
   text-align: center;
   padding-top: 130px;
 }
+
 /* .aboutus-info {
   display: flex;
 } */
@@ -40,43 +50,54 @@
   padding: 20px 35px;
   line-height: 35px;
 }
+
 .aboutus-text h2 {
   font-size: 42px;
   padding: 20px 0;
 }
+
 .aboutus-text p {
   margin-bottom: 20px;
   font-size: 22px;
 }
+
 .aboutus-info img {
   width: 880px;
 }
+
 .cert {
   display: flex;
   justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
 .cert * {
   width: 320px;
 }
+
 @media (max-width: 920px) {
   .aboutusContainer {
     padding: 0;
   }
+
   .cert * {
     width: 220px;
   }
+
   .ourMessage {
     font-size: 30px;
     width: 100%;
   }
+
   .aboutus h1 {
     font-size: 42px;
   }
+
   .aboutus-text h2 {
     font-size: 32px;
   }
+
   .aboutus-text p {
     font-size: 18px;
   }
