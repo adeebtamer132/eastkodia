@@ -448,7 +448,7 @@ button:hover {
 }
 
 .img-l-last {
-  background-image: url("../assets/f-last.avif");
+  background-image: url("../assets/f-last.jpg");
   width: 70%;
   aspect-ratio: 9/ 12;
 }
@@ -508,7 +508,7 @@ button:hover {
 .grand {
   position: relative;
   height: 100vh;
-  background-image: url("../assets/bmw-i7.avif");
+  background-image: url("../assets/bmw-i7.jpg");
   width: 100%;
   background-position: 45% 50%;
   background-repeat: no-repeat;
@@ -634,7 +634,7 @@ button:hover {
 }
 
 .socialMedia .links ul li i {
-  transition: all 0.4s;
+  /* transition: all 0.4s; */
 }
 
 .fa-facebook:hover {

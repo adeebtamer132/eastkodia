@@ -70,10 +70,13 @@
   justify-content: space-around;
   padding-top: 100px;
   padding-bottom: 100px;
+  gap: 50px;
 }
 
 .cert * {
-  width: 320px;
+
+  width: 220px;
+
 }
 
 @media (max-width: 920px) {
@@ -82,7 +85,7 @@
   }
 
   .cert * {
-    width: 220px;
+    width: 180px;
   }
 
   .ourMessage {
