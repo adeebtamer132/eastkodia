@@ -12,8 +12,9 @@ body {
   font-family: "Open Sans", sans-serif;
   background-color: #010101;
 }
+
 .contactusContainer {
-  margin-top: 120px;
+  margin-top: 150px;
   display: flex;
   gap: 20px;
   justify-content: space-around;
@@ -135,26 +136,39 @@ button.ghost {
   background-color: transparent;
   border-color: #ffffff;
 }
+
 .mapTitle {
   color: white;
   text-align: center;
   font-size: 32px;
 }
+
 .map {
-  padding: 20px;
+  margin: 0 20px;
   text-align: center;
+  /* border-radius: 15px; */
+
 }
+
+iframe {
+  height: 738.6px;
+  border-radius: 15px;
+}
+
 @media screen and (max-width: 980px) {
   .contactusContainer {
     flex-direction: column;
   }
+
   section.contact-us #contact {
     width: 350px;
   }
+
   input,
   textarea {
     width: 300px;
   }
+
   /* .map {
     width: 350px;
     height: 300px;
@@ -167,4 +181,5 @@ button.ghost {
   .map {
     width: 600px;
   }
+
 }

@@ -1,6 +1,6 @@
 .hero-img-index2 {
     /* background-image: url("../assets/bmw-i7.avif"); */
-    background-image: url("../assets/mq5-original-aspect.avif");
+    background-image: url("../assets/03.avif");
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -31,48 +31,66 @@
 
 }
 
+@media (max-width: 767px) {
+    .section2-index2 h2 {
+        font-size: 79px;
+    }
+}
+
+
+
+
+
 
 
 .component-1 {
-    background-color: #dad6d6;
+    background-color: white;
 }
 
 .content {
     display: flex;
     flex-direction: column;
     gap: 27px;
+    margin: 0 100px;
+    color: black;
 }
 
 .content h2 {
-    margin: 0px 70px;
+
     padding-top: 50px;
+    font-family: "Playfair Display", serif;
+    font-size: 36px;
+    font-weight: 300;
     text-align: center;
-    font-size: 35px;
-    font-family: 'Times New Roman', Times, serif;
+
 
 }
 
-/* .content p {
-    font-size: 16px;
+.content p {
+
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    line-height: 20px;
-
-} */
-
-/* .component-1 .img {
-    flex: 1;
-    margin: auto;
+    line-height: 35px;
     text-align: center;
-    position: relative;
 
-} */
+}
 
-/* .component-1 .img img {
-    width: 350px;
-    position: absolute;
-    top: -40px;
-    top: -200px;
-} */
+@media (max-width: 767px) {
+    .content {
+        margin: 0;
+    }
+
+    .content p {
+        font-size: 18px;
+        text-align: left;
+    }
+
+    .content h2 {
+        font-size: 27px;
+    }
+}
+
+
 
 .eastkodia {
     color: #ffa500ab;
@@ -99,7 +117,7 @@
 
 
 
-/* contact mail in cookies */
+/* contact mail in cookies and contact*/
 .contact_mail {
     color: blue;
     text-decoration: none;
@@ -129,5 +147,18 @@
     margin-right: 50px;
 }
 
+
+@media (max-width: 767px) {
+    .info_contact {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 21px;
+
+    }
+
+    .click_here {
+        font-size: 28px;
+    }
+}
 
 /*  */

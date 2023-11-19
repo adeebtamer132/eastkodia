@@ -83,6 +83,10 @@ h1 {
   .card a.more {
     font-size: 14px;
   }
+  .productsPageContainer h1 {
+    font-size: 28px;
+
+  }
 }
 
 
@@ -107,6 +111,7 @@ h1 {
   border: 1px solid #CCC;
   padding: 20px;
   z-index: 1001;
+  width: 600px;
 }
 
 .popup-box img {
@@ -143,10 +148,11 @@ h1 {
   margin: 10px auto;
   display: none;
   position: absolute;
-  z-index: 100;
+  /* z-index: 100; */
   left: 50%;
   transform: translatex(-50%);
   top: 150px;
+  color: black;
 
 }
 
@@ -162,6 +168,33 @@ h1 {
 
 
 
+
+/*overlay popup */
+
+.popup-text {}
+
+
+.popup-text p {
+  margin: 0 30px;
+  padding-top: 20px;
+}
+
+@media (max-width: 767px) {
+  .popup-box {
+    padding: 0;
+    width: 277px;
+    font-size: 15px;
+  }
+
+  .popup-text p {
+    margin-bottom: 20px;
+  }
+
+  .more {
+    top: 247px;
+    display: block;
+  }
+}
 
 
 

@@ -268,8 +268,6 @@ ourGallery.forEach(more => {
 
         // Set Image Source
         popupImage.src = more.dataset.progress;
-        let tt = more.dataset.progress;
-        console.log(tt)
 
         // Add Image To Popup Box
         popupBox.appendChild(popupImage);
@@ -291,6 +289,24 @@ ourGallery.forEach(more => {
 
         // Add Close Button To The Popup Box
         popupBox.appendChild(closeButton);
+
+
+
+
+
+        // create popup text
+        let popuptext = document.createElement("dev");
+        popuptext.className = "popup-text"
+        let popupP = document.createElement("p")
+        popupP.innerHTML = more.dataset.discription
+
+
+        // Add p to text and text To Popup Box
+        popupBox.appendChild(popuptext);
+        popuptext.appendChild(popupP)
+
+
+
 
     });
 
